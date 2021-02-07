@@ -9,7 +9,7 @@ class SeconedCounterPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Counter"),
+        title: Text("2nd Page"),
       ),
       body: Consumer(
         builder: (context, watch, child) {
